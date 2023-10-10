@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3599C6112AD4CD300079AD5F /* SnacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6102AD4CD300079AD5F /* SnacksView.swift */; };
+		3599C6182AD4D0160079AD5F /* ShopCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6172AD4D0160079AD5F /* ShopCardView.swift */; };
+		3599C61A2AD4D7520079AD5F /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6192AD4D7520079AD5F /* DrinksView.swift */; };
+		3599C61C2AD4DBD50079AD5F /* CandyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599C61B2AD4DBD50079AD5F /* CandyView.swift */; };
+		3599C61E2AD4DC6B0079AD5F /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599C61D2AD4DC6B0079AD5F /* MealView.swift */; };
 		35C6212E2AD0DB5E00E7A842 /* CinepolisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6212D2AD0DB5E00E7A842 /* CinepolisApp.swift */; };
 		35C621302AD0DB5E00E7A842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6212F2AD0DB5E00E7A842 /* ContentView.swift */; };
 		35C621322AD0DB6000E7A842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C621312AD0DB6000E7A842 /* Assets.xcassets */; };
 		35C621352AD0DB6000E7A842 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C621342AD0DB6000E7A842 /* Preview Assets.xcassets */; };
+		35C6213C2AD0DB8100E7A842 /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6213B2AD0DB8100E7A842 /* FoodCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3599C6102AD4CD300079AD5F /* SnacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacksView.swift; sourceTree = "<group>"; };
+		3599C6172AD4D0160079AD5F /* ShopCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCardView.swift; sourceTree = "<group>"; };
+		3599C6192AD4D7520079AD5F /* DrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksView.swift; sourceTree = "<group>"; };
+		3599C61B2AD4DBD50079AD5F /* CandyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyView.swift; sourceTree = "<group>"; };
+		3599C61D2AD4DC6B0079AD5F /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		35C6212A2AD0DB5E00E7A842 /* Cinepolis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinepolis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C6212D2AD0DB5E00E7A842 /* CinepolisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinepolisApp.swift; sourceTree = "<group>"; };
 		35C6212F2AD0DB5E00E7A842 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35C621312AD0DB6000E7A842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C621342AD0DB6000E7A842 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35C6213B2AD0DB8100E7A842 /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				35C6212D2AD0DB5E00E7A842 /* CinepolisApp.swift */,
 				35C6212F2AD0DB5E00E7A842 /* ContentView.swift */,
+				3599C6172AD4D0160079AD5F /* ShopCardView.swift */,
+				3599C6102AD4CD300079AD5F /* SnacksView.swift */,
+				3599C6192AD4D7520079AD5F /* DrinksView.swift */,
+				3599C61B2AD4DBD50079AD5F /* CandyView.swift */,
+				3599C61D2AD4DC6B0079AD5F /* MealView.swift */,
+				35C6213B2AD0DB8100E7A842 /* FoodCardView.swift */,
 				35C621312AD0DB6000E7A842 /* Assets.xcassets */,
 				35C621332AD0DB6000E7A842 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3599C61C2AD4DBD50079AD5F /* CandyView.swift in Sources */,
 				35C621302AD0DB5E00E7A842 /* ContentView.swift in Sources */,
 				35C6212E2AD0DB5E00E7A842 /* CinepolisApp.swift in Sources */,
+				3599C61E2AD4DC6B0079AD5F /* MealView.swift in Sources */,
+				3599C6182AD4D0160079AD5F /* ShopCardView.swift in Sources */,
+				3599C61A2AD4D7520079AD5F /* DrinksView.swift in Sources */,
+				35C6213C2AD0DB8100E7A842 /* FoodCardView.swift in Sources */,
+				3599C6112AD4CD300079AD5F /* SnacksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
